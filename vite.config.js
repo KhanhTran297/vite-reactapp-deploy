@@ -10,7 +10,7 @@ export default defineConfig({
   // Có thể tạo component với đuôi .js
   // Trừ trường hợp không thể sử dụng file JSX thì mới dùng file JS
   // Lý do liên quan đến hiệu suất trang web
-  base: "/vite-reactapp-deploy/",
+  base: "./vite-reactapp-deploy/",
   assetsDir: "assets",
   esbuild: {
     loader: "jsx",
